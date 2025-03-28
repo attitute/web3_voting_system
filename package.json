@@ -1,0 +1,21 @@
+{
+  "name": "web3-voting-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx truffle compile && cp -r build/contracts src/src/",
+    "migrate": "npx truffle migrate --reset && cp -r build/contracts src/src/",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "truffle": "^5.11.5"
+  }
+}
